@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BCESmHwfXdDY303NTmYnwL0E/f6Npi+gALFqhda3DvrmloueXnZzQzYsH3mWagiYHHMD1Za3YxZVJptYUTeYVw==",
+  "dgSpecHash": "JFJ6DTVxMWMJzNJ/p9NTbZ7Ev1oSCJgpKB2Fn1YkBAtefDDIYlC6C0PnY0tkIFp1wFsflKmvoKbjx5YV0ZTGig==",
   "success": true,
-  "projectFilePath": "C:\\dotnet\\RealtimeSystemLabs\\Lab2Wpf\\Lab2Wpf.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\artgl\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\dotnet\\realtime_labs\\Lab2Wpf\\Lab2Wpf.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

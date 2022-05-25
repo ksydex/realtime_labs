@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dotnet\\RealtimeSystemLabs\\Lab3CLientWpf\\Lab3CLientWpf.csproj",
+      "projectUniqueName": "D:\\dotnet\\realtime_labs\\Lab3CLientWpf\\Lab3CLientWpf.csproj",
       "projectName": "Lab3CLientWpf",
-      "projectPath": "C:\\dotnet\\RealtimeSystemLabs\\Lab3CLientWpf\\Lab3CLientWpf.csproj",
+      "projectPath": "D:\\dotnet\\realtime_labs\\Lab3CLientWpf\\Lab3CLientWpf.csproj",
       "packagesPath": "C:\\Users\\artgl\\.nuget\\packages\\",
-      "outputPath": "C:\\dotnet\\RealtimeSystemLabs\\Lab3CLientWpf\\obj\\",
+      "outputPath": "D:\\dotnet\\realtime_labs\\Lab3CLientWpf\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\artgl\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,12 +53,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.11, 5.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -67,7 +61,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

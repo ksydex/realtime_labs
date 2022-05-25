@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XqoMQgCAlBQjWKDR90qZXSNm83Z6xEl+mpV/8hyfLzVXFVXVmPZ2hu9YskzeNXO2w/QBX42zSEUrcKnfwEZU/g==",
+  "dgSpecHash": "j/7NXzqw7Xmk0lr45rj2ine8PRGWeM05tqR0aQ8pzRSUe/cm+sKPYOvAACTrVqQGcn3wc/uUELN6zsSNFsaWqw==",
   "success": true,
-  "projectFilePath": "C:\\dotnet\\RealtimeSystemLabs\\Lab3Test\\Lab3Test.csproj",
+  "projectFilePath": "D:\\dotnet\\realtime_labs\\Lab3Test\\Lab3Test.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

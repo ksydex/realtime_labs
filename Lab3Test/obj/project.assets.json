@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dotnet\\RealtimeSystemLabs\\Lab3Test\\Lab3Test.csproj",
+      "projectUniqueName": "D:\\dotnet\\realtime_labs\\Lab3Test\\Lab3Test.csproj",
       "projectName": "Lab3Test",
-      "projectPath": "C:\\dotnet\\RealtimeSystemLabs\\Lab3Test\\Lab3Test.csproj",
+      "projectPath": "D:\\dotnet\\realtime_labs\\Lab3Test\\Lab3Test.csproj",
       "packagesPath": "C:\\Users\\artgl\\.nuget\\packages\\",
-      "outputPath": "C:\\dotnet\\RealtimeSystemLabs\\Lab3Test\\obj\\",
+      "outputPath": "D:\\dotnet\\realtime_labs\\Lab3Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\artgl\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

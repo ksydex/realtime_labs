@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dotnet\\RealtimeSystemLabs\\Lab1\\Lab1.csproj": {}
+    "D:\\dotnet\\realtime_labs\\Lab1\\Lab1.csproj": {}
   },
   "projects": {
-    "C:\\dotnet\\RealtimeSystemLabs\\Lab1\\Lab1.csproj": {
+    "D:\\dotnet\\realtime_labs\\Lab1\\Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dotnet\\RealtimeSystemLabs\\Lab1\\Lab1.csproj",
+        "projectUniqueName": "D:\\dotnet\\realtime_labs\\Lab1\\Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "C:\\dotnet\\RealtimeSystemLabs\\Lab1\\Lab1.csproj",
+        "projectPath": "D:\\dotnet\\realtime_labs\\Lab1\\Lab1.csproj",
         "packagesPath": "C:\\Users\\artgl\\.nuget\\packages\\",
-        "outputPath": "C:\\dotnet\\RealtimeSystemLabs\\Lab1\\obj\\",
+        "outputPath": "D:\\dotnet\\realtime_labs\\Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\artgl\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

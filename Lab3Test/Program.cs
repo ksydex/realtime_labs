@@ -1,11 +1,19 @@
-﻿using (Semaphore semaphore = new Semaphore(3, 3, "testing"))
-{
-    
-    if (!semaphore.WaitOne(5000))
-    {
-        Console.WriteLine("Sorry too late");
-    }
+﻿using System.Diagnostics;
+using Lab3Test;
 
-    Console.WriteLine("Hello world");
-    Thread.Sleep(100000000);
+try
+{
+    var clientName = Process.GetProcessesByName(nameof(Lab3Test)).Length;
+
+    while (true)
+    {
+        var v = Console.ReadLine();
+        Connection.Write(clientName + ": " + (v ?? ""));
+        var sem = Semaphore.OpenExisting(Connection.SemaphoreName);
+        sem.Release();
+    }
+}
+catch
+{
+    Console.WriteLine("Only 2 clients is allowed");
 }
