@@ -1,0 +1,43 @@
+@page "/time"
+
+<PageTitle>Time</PageTitle>
+
+<h1>Time</h1>
+
+
+<input class="form-control mb-3" placeholder="Input IP" type="text" @bind="_ip"/>
+<button class="btn btn-primary" @onclick="OnClick">Check</button>
+
+@if (_result != "")
+{
+    <p class="mt-3">@_result</p>
+}
+
+@code {
+    private string _ip = "";
+    private string _result = "";
+
+
+    public async Task OnClick()
+    {
+        var client = new HttpClient();
+
+        var dateNow = DateTime.Now;
+
+        try
+        {
+            var r = await client.GetAsync(_ip + "/api/Time");
+            if (!r.IsSuccessStatusCode) throw new Exception();
+        
+            var res = (await r.Content.ReadAsStringAsync()).Replace("\"", "");
+            
+            var resDate = DateTime.Parse(res);
+        
+            _result = "Разница между временем клиента и временем сервера: " + (resDate - dateNow).Milliseconds + " мс";
+        }
+        catch (Exception)
+        {
+            _result = "IP некорректен";
+        }
+    }
+}
