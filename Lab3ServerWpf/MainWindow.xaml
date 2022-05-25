@@ -7,7 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <Button Click="ButtonBase_OnClick">Create semaphore</Button>
         <TextBlock Height="600" x:Name="Log"></TextBlock>
     </StackPanel>
 </Window>

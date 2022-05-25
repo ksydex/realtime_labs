@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Lab3CLientWpf;
 
 namespace Lab3ServerWpf
 {
@@ -24,34 +25,24 @@ namespace Lab3ServerWpf
         public MainWindow()
         {
             InitializeComponent();
+
+            var thread = new Thread(Loop);
+            thread.Start();
         }
 
-        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        public void Loop()
         {
-            var s = new Semaphore(0, 3, "srv");
-
-            var count = 3;
-            AppendString("asdasdasdas");
-            
-            while (count > 0)
+            var semaphore = new Semaphore(0, 2, Connection.SemaphoreName);
+            while (true)
             {
-                s.WaitOne();  // ожидаем, когда освободиться место
-            
-                AppendString($"{Thread.CurrentThread.Name} входит в библиотеку");
-            
-                AppendString($"{Thread.CurrentThread.Name} читает");
-                Thread.Sleep(1000);
-            
-                AppendString($"{Thread.CurrentThread.Name} покидает библиотеку");
-            
-                s.Release();  // освобождаем место
-            
-                count--;
-                Thread.Sleep(1000);
+                var v = semaphore.WaitOne(500);
+                if (v) OnChanged();
             }
         }
 
-        private void AppendString(string str)
-            => Log.Text += str + "\n";
+        void OnChanged()
+        {
+            Dispatcher.Invoke(new Action<string>(value => Log.Text = value), Connection.Read());
+        }
     }
 }

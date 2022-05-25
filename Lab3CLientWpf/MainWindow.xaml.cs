@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -21,20 +22,24 @@ namespace Lab3CLientWpf
     /// </summary>
     public partial class MainWindow : Window
     {
+        public readonly string ClientName;
+        
         public MainWindow()
         {
             InitializeComponent();
+            ClientName = Process.GetProcessesByName(nameof(Lab3CLientWpf)).Length + "";
         }
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
-            var res = Semaphore.TryOpenExisting("srv", out var semaphore);
-            if (!res) MessageBox.Show("Не удалось подключиться к серверу");
-            else
-            {
-                semaphore!.WaitOne();
-                semaphore.Release();
-            }
+            var v = ValueBox.Text;
+            if (v == "") return;
+            
+            Connection.Write(ClientName + ": " + v);
+            var sem = Semaphore.OpenExisting(Connection.SemaphoreName);
+            sem.Release();
+            
+            ValueBox.Text = "";
         }
     }
 }
