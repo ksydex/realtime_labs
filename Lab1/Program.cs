@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System;
 using System.Diagnostics;
+using System.Linq;
 
 var timeGap = TimeSpan.FromSeconds(10);
 
