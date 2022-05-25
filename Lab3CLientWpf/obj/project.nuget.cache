@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ynz3yrDwvOGiXMnrt/HfTtZ5GpFKuXUHMpuO2FqWb0ZC5KPxC2UqifdHiySHwVeHz2tmZSJfaTGNIibRBEozA==",
+  "success": true,
+  "projectFilePath": "C:\\dotnet\\RealtimeSystemLabs\\Lab3CLientWpf\\Lab3CLientWpf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artgl\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

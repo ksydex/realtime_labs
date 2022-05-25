@@ -1,0 +1,16 @@
+C:\dotnet\RealtimeSystemLabs\Lab3Test\bin\Debug\net6.0\Lab3Test.exe
+C:\dotnet\RealtimeSystemLabs\Lab3Test\bin\Debug\net6.0\Lab3Test.deps.json
+C:\dotnet\RealtimeSystemLabs\Lab3Test\bin\Debug\net6.0\Lab3Test.runtimeconfig.json
+C:\dotnet\RealtimeSystemLabs\Lab3Test\bin\Debug\net6.0\Lab3Test.dll
+C:\dotnet\RealtimeSystemLabs\Lab3Test\bin\Debug\net6.0\ref\Lab3Test.dll
+C:\dotnet\RealtimeSystemLabs\Lab3Test\bin\Debug\net6.0\Lab3Test.pdb
+C:\dotnet\RealtimeSystemLabs\Lab3Test\obj\Debug\net6.0\Lab3Test.GlobalUsings.g.cs
+C:\dotnet\RealtimeSystemLabs\Lab3Test\obj\Debug\net6.0\Lab3Test.csproj.AssemblyReference.cache
+C:\dotnet\RealtimeSystemLabs\Lab3Test\obj\Debug\net6.0\Lab3Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\RealtimeSystemLabs\Lab3Test\obj\Debug\net6.0\Lab3Test.AssemblyInfoInputs.cache
+C:\dotnet\RealtimeSystemLabs\Lab3Test\obj\Debug\net6.0\Lab3Test.AssemblyInfo.cs
+C:\dotnet\RealtimeSystemLabs\Lab3Test\obj\Debug\net6.0\Lab3Test.csproj.CoreCompileInputs.cache
+C:\dotnet\RealtimeSystemLabs\Lab3Test\obj\Debug\net6.0\Lab3Test.dll
+C:\dotnet\RealtimeSystemLabs\Lab3Test\obj\Debug\net6.0\ref\Lab3Test.dll
+C:\dotnet\RealtimeSystemLabs\Lab3Test\obj\Debug\net6.0\Lab3Test.pdb
+C:\dotnet\RealtimeSystemLabs\Lab3Test\obj\Debug\net6.0\Lab3Test.genruntimeconfig.cache
