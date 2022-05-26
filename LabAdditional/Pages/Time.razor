@@ -33,7 +33,7 @@
             
             var resDate = DateTime.Parse(res);
         
-            _result = "Разница между временем клиента и временем сервера: " + (resDate - dateNow).Milliseconds + " мс";
+            _result = "Разница между временем клиента и временем сервера: " + Math.Abs((resDate - dateNow).Milliseconds) + " мс";
         }
         catch (Exception)
         {
